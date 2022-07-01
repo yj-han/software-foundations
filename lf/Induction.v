@@ -674,7 +674,7 @@ Theorem add_shuffle3' : forall n m p : nat,
 Proof.
   intros n m p.
   rewrite -> add_assoc.
-  replace (n+m) with (m+n). 
+  replace (n + m) with (m + n). 
   rewrite add_assoc.
   reflexivity.  
   apply add_comm.  Qed.
