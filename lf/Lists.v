@@ -1237,8 +1237,7 @@ Theorem update_neq :
     eqb_id x y = false -> find x (update d y o) = find x d.
 Proof.
   intros d x y o H.
-  simpl. rewrite -> H. reflexivity.
-
+  simpl. rewrite -> H. reflexivity. Qed.
 (** [] *)
 End PartialMap.
 
