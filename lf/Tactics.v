@@ -1354,7 +1354,7 @@ Proof.
   - simpl.
     destruct (test h).
     + simpl. reflexivity.
-    + simpl. apply IHl'.
+    + simpl. apply IHl'. Qed.
 
 (** [] *)
 
